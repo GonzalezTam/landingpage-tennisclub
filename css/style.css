@@ -42,6 +42,7 @@ header{
     width: 100vw;
     margin: 0;
     background-color: white;
+    box-shadow: 0 2px 4px 3px rgba(0,0,0,.2);
 }
 
 nav{
@@ -75,6 +76,7 @@ nav > ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 0;
 }
 
 nav a:hover{
@@ -92,7 +94,7 @@ nav a:hover{
     margin-left: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     header {
     flex-wrap: wrap;
     position: relative;
@@ -101,21 +103,20 @@ nav a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 30px;
+    padding: 5px 30px;
     width: 100vw;
-    margin: 0;
     background-color: white;
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
     .logo {
         width: 340px;
         position: relative;
         margin-top: 15px;
         margin-bottom: 15px;
         margin-right: 0;
-    margin-left: 0;
+        margin-left: 0;
     }
     
     .logo > img {
@@ -123,16 +124,15 @@ nav a:hover{
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
     nav {
-        margin-top: 10px;
-        margin-bottom: 10px;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 0 55px;
+        padding: 0px;
+        margin-top: -13px;
     }
 
     nav li {
@@ -155,45 +155,67 @@ nav a:hover{
 }
 /* HEADER ENDS */
 
-/* Email section starts*/
-#email-section {
+/*First section Starts*/
+.first-section{
+    width: 100%;
+    background-image: url(/img/4.jpg);
+    background-size: cover;
+    height: 947px;
+}
+
+
+#form-div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
-    height: 200px;
-    margin-top: 50px;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    margin-top: 80px;
+    padding: 4rem;
 }
 
-#email-section > h2 {
+#form-div > h2 {
     margin-bottom: 20px;
     word-wrap: break-word;
 }
 
-#email-section input[type='email'] {
+#form-div input[type='email'] {
     max-width: 275px;
     width: 100%;
     padding: 5px;
 }
 
-#email-section input[type='submit'] {
+#form-div input[type='submit'] {
     max-width: 150px;
     width: 100%;
     height: 35px;
     margin: 15px 0;
     border: 0;
-    background-color: #0570c2;
+    background-color: #e97b06;
 }
 
-#email-section input[type='submit']:hover {
-    background-color: #0889ec;
+#form-div input[type='submit']:hover {
+    background-color: #f7c602;
     transition: background-color 1s;
 }
 
-@media (max-width: 650px) {
-    #email-section {
-    margin-top: -15px;
+#video-div{
+    width: 720px;
+    float: right;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 750px) {
+    #form-div {
+    margin-top: 0px;
     }
 }
-/* Email section ends*/
+
+
+/* Form section Ends*/
