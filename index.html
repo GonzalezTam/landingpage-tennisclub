@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="ICON" href="img/ico.ico" type="image/ico" />
 </head>
 <body>
 
@@ -15,7 +16,7 @@
   <div id="wrapper">
           <header id="header">
             <div class="logo">
-              <a href="#"><img id="header-img" class="img-fluid" src="./img/goodTennisClub1.png" alt="header-img"></a>
+              <a href="#"><img id="header-img" class="img-fluid" style="min-width: 290px;" src="./img/goodTennisClub1.png" alt="header-img"></a>
             </div>
             
             <nav id="nav-bar">
@@ -23,7 +24,7 @@
                 <li><a class="nav-link" href="#suscribe">Suscribe!</a></li>
                 <li><a class="nav-link" href="#about">About</a></li>
                 <li><a class="nav-link" href="#membership">Membership</a></li>
-                <li><a class="nav-link" href="#contact">Contact</a></li>
+                <li><a class="nav-link" href="#footer">Contact</a></li>
               </ul>
               </nav>
           </header>
@@ -49,7 +50,7 @@
 <section id="about" class="second-section">
   <div class="container">
     <div class="row">
-      <div class="col-md-5 second-section-div">
+      <div class="col-md-6 second-section-div">
         <h4><i class="fas fa-thumbs-up"></i> 5 clay courts!</h4>
         <h4><i class="fas fa-table-tennis"></i> Table-tennis!</h4>
         <h4><i class="fas fa-utensils"></i> Buffet & Bar</h4>
@@ -58,32 +59,119 @@
         <h4><i class="fas fa-trophy"></i> Tournaments every month!</h4>
         <h4><i class="fas fa-wifi"></i> Free Wifi!</h4>
       </div>
-      <div class="col-md-5 video-container">
-        <video id="video" src="/video/demo.mp4" autoplay loop muted></video>
+      <div class="col-md-6 video-div">
+        <video id="video" src="./video/demo.mp4" autoplay loop muted></video>
       </div>
     </div>
   </div>
 </section>
 <!-- ************THIRD SECTION************ -->
 
-<!-- <section id="membership" class="third-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5 third-section-div">
-        <h4><i class="fas fa-thumbs-up"></i> 5 clay courts!</h4>
-        <h4><i class="fas fa-table-tennis"></i> Table-tennis!</h4>
-        <h4><i class="fas fa-utensils"></i> Buffet & Bar</h4>
-        <h4><i class="fas fa-shower"></i> Locker room</h4>
-        <h4><i class="fas fa-wrench"></i> String service</h4>
-        <h4><i class="fas fa-trophy"></i> Tournaments every month!</h4>
-        <h4><i class="fas fa-wifi"></i> Free Wifi!</h4>
+<section id="membership" class="third-section">
+  <div class="package-plan-cards container-fluid">
+    <div class="package">
+      <div class="package-header">
+        <div class="circle blue">
+          <div class="circle-text-heading">BASIC</div>
+          <div class="circle-text">FREE</div>
+        </div>
       </div>
-      <div class="col-md-5 XXX-container">
-        
+      <div class="package-info">
+        <div class="package-heading">Membership Benefits</div>
+        <div class="text-seperator black"></div>
+        <p><br>includes:<br>• Registration <br>• Accident Insurance<br> • Free access to all facilities</p>
+      </div>
+      <div class="package-footer">
+        <a href="#" class="button blue w-button">Sign Up</a>
       </div>
     </div>
+
+    <div class="package popup-package">
+      <div class="package-header">
+        <div class="circle red">
+          <div class="circle-text-heading">PRO</div>
+          <div class="circle-text">$50<br> </div>
+        </div>
+      </div>
+      <div class="package-info">
+        <div class="package-heading">Membership Benefits<br></div>
+        <div class="text-seperator black"></div>
+        <p><br>includes:<br>• Registration <br>• Accident Insurance<br> • Free access to all facilities <br>• Singles & Doubles Ladder<br>• Discounted tennis court hire (25% OFF before 5pm), private &amp; group classes, social tennis, competitions, table tennis hire<br>• Play inter-club competitions<br>• 10% OFF at string service</p>
+    </div>
+        <div class="package-footer"><a href="#" class="button red w-button">Sign Up or Renew</a>
+        </div>
+    </div>
+    
+    <div class="package">
+    <div class="package-header">
+      <div class="circle purple">
+        <div class="circle-text-heading">PREMIUM</div>
+        <div class="circle-text">$80<br></div>
+      </div>
+    </div>
+    <div class="package-info">
+      <div class="package-heading">Membership Benefits<br></div>
+      <div class="text-seperator black"></div>
+      <p><br>includes:<br>• Registration <br>• Accident Insurance<br> • Free access to all facilities <br>• Singles & Doubles Ladder<br>• Discounted tennis court hire (50% OFF before 5pm), private &amp; group classes, social tennis, competitions, table tennis hire<br>• Play inter-club competitions<br>• Free registration to National Tennis Federation <br>• 15% OFF at string service</p>
+    </div>
+    <div class="package-footer"><a href="#" class="button purple w-button">Sign Up or Renew</a>
+    </div>
   </div>
-</section> -->
+</div>
+</section> 
+
+<!-- *************** FOOTER *************** -->
+<section id="footer">
+  <div class="footer-div">
+      <div class="container">
+        <!-- GoogleMaps -->
+        <div id="map-div">
+            <h5>Find us here</h5>
+            <div id="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.44366943136!2d-58.50333799283084!3d-34.61566245887631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1614912550983!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+        </div>
+          <!-- Contact -->
+          <div id="contact-div" class="">
+              <h5>Contact</h5>
+              <div id="contact-boxes" class="">
+                  <div class="box">
+                      <div>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <h6>Phone</h6>
+                      </div>
+                      <div id="phone-box">
+                        <p>+54(11) 47xx-xxxx</p>
+                      </div>
+                  </div>
+                  <div class="box">
+                      <div>
+                          <i class="fa fa-envelope" aria-hidden="true"></i>
+                          <h6>Email</h6>
+                      </div>
+                      <div id="email-box">
+                          <p><a href="#">lorem@gmail.com</a></p>
+                      </div>
+                  </div>
+                  <div class="box">
+                      <div>
+                          <i class="fa fa-map-marker" aria-hidden="true"></i>
+                          <h6>Address</h6>
+                      </div>
+                      <div id="address-box">
+                          <p> Lorem 123, Ipsum<br> Buenos Aires</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="copyright">
+      <div class="container">
+          <p>The GOOD Tennis © 2021</p>
+      </div>
+  </div>
+</section>
   </div>
 </body>
 </html>
